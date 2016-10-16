@@ -1,0 +1,305 @@
+body{
+	background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+	
+	/* colors
+	#337ab7 
+	#3390b7*/
+	
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+body section{
+	border-left: transparent;
+	border-right: 0.8vw solid #1252B5;
+	height: 100%;
+	border-top: 3px solid #1252B5;
+	background-color: #eee;
+	min-height: 1500px;
+}
+body section:nth-child(2n){
+	border-left: 0.8vw solid #1252B5;
+	border-right: transparent;
+	background: #fefefe;
+}
+
+.navbar a{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+a{
+	color: #1252B5;
+}
+
+.carousel-container {
+  padding-left: 0px;
+  padding-right:0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  box-shadow: 0px 0px 25px #333333;
+}
+
+.carousel-indicators{
+	display: none;
+	opacity: 0;
+}
+
+.carousel-inner > .item > img {
+	min-height: 50px;
+}
+
+.frontinfo ul li{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.frontinfo ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.frontinfo {
+	padding-top: 40px;
+}
+
+#daycol li{
+	text-align: right;
+}
+#hourcol li{
+	text-align: left;
+}
+#cardicons li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#cardicons img{
+	height: 30px;
+}
+
+.top-section, .about-section, .findus-section, .forms-section{
+    height: 100%;
+    padding-top: 0px;
+    text-align: center;
+	min-height: 768px;
+	overflow:hidden;
+}
+.top-section{
+	min-height: 650px;
+}
+.about-section{
+	min-height: 768px;
+}
+.findus-section{
+	min-height: 650px;
+}
+.forms-section{
+	min-height: 768px;
+}
+
+.aboutcontainer p{
+	text-align: left;
+}
+
+.aboutcontainer ul li{
+	font-family: 'Fjalla One', sans-serif;
+	color: #1252B5;
+	font-size: 16px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.aboutcontainer ul{
+	margin: 0;
+	padding: 0;
+}
+
+#aaalogo{
+	height: 30vh;
+	padding-top: 0px;
+	margin-bottom: 1000px;
+}
+
+#aaastorefront{
+	box-shadow: 0px 5px 20px #333333;
+}
+
+.brandcontainer{
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+/* .brandcontainer li:nth-child(2n){
+	color: #4D7BC1
+} */
+
+.finduscontainer li{
+	display: block;
+}
+
+.findusinfo {
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.findusinfo ul li{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.findusinfo ul{ /* map page */
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.topcontainer h1{ /* AAA header  */
+	padding-top: 0px;
+	padding-bottom: 0px;
+	top: 0px;
+	position: relative;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #1252B5;
+	text-shadow: 0px 3px 10px #ddd;
+	text-transform: uppercase;
+	display: inline;
+}
+
+.aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 36px;
+	color: #1252B5;
+	text-shadow: 0px 3px 10px #ddd
+}
+
+.formscontainer img{
+	max-height: 200px;
+}
+
+.google-maps {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50%;
+	height: 0;
+	overflow: hidden;
+	box-shadow: 0px 5px 20px #333333;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+.brandcontainer ul li{
+	font-size: 16px;
+}
+.hourscontainer ul li{
+	font-size: 16px;
+}
+
+.titlecontainer img{
+	display: inline;
+	height: 50px;
+	position: relative;
+	right: 10px;
+}
+.titlecontainer{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	
+@media(min-width:1200px) {
+	.titlecontainer h1{
+		top: 25px;
+	}
+}
+	
+@media(min-width:767px) {
+    .navbar {
+        padding: 15px 0;
+        -webkit-transition: background .35s ease-in-out,padding .35s ease-in-out;
+        -moz-transition: background .35s ease-in-out,padding .35s ease-in-out;
+        transition: background .35s ease-in-out,padding .35s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+	
+	.topcontainer h1{
+		font-size: 68px;
+	}
+	.carousel-container{
+		margin-top: 25px;
+	}
+	.frontinfo {
+	padding-top: 75px;
+	}
+	.carousel-indicators{
+		display: initial;
+		top: initial;
+		opacity: 0.3;
+	}
+	#aaalogo{
+		margin-top: 0px;
+	}
+	.brandcontainer ul li{
+		font-size: 16px;
+	}
+	.hourscontainer ul li{
+		font-size: 16px;
+	}
+	.findus-section{
+		min-height: 768px;
+	}
+	.top-section{
+		min-height: 768px;
+	}
+	.titlecontainer img{
+		display: inline;
+		height: 125px;
+	}
+	.titlecontainer{
+		padding-top: 125px;
+		padding-bottom: 150px;
+	}
+	.aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 60px;
+	color: #1252B5;
+	text-shadow: 0px 3px 10px #ddd
+}
+}

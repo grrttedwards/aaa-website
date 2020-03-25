@@ -13,7 +13,6 @@ body{
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 html {
@@ -35,7 +34,6 @@ body section:nth-child(2n){
 }
 
 .navbar a{
-	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 26px;
 	text-transform: uppercase;
 }
@@ -69,7 +67,6 @@ strong {
 }
 
 .frontinfo ul li{
-	font-family: 'Fjalla One', sans-serif;
 	font-size: 16px;
 	text-align: center;
 	list-style-type: none;
@@ -127,7 +124,6 @@ strong {
 }
 
 .aboutcontainer ul li{
-	font-family: 'Fjalla One', sans-serif;
 	color: #1252B5;
 	font-size: 16px;
 	text-align: center;
@@ -168,7 +164,6 @@ strong {
 }
 
 .findusinfo ul li{
-	font-family: 'Fjalla One', sans-serif;
 	font-size: 16px;
 	text-align: center;
 	list-style-type: none;
@@ -198,7 +193,6 @@ strong {
 .aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
 	padding-top: 30px;
 	padding-bottom: 30px;
-	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 36px;
 	color: #1252B5;
 	text-shadow: 0px 3px 10px #ddd
@@ -302,7 +296,6 @@ strong {
 	.aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 60px;
 	color: #1252B5;
 	text-shadow: 0px 3px 10px #ddd

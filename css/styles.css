@@ -44,6 +44,11 @@ a{
 	color: #1252B5;
 }
 
+strong {
+	font-weight: bold;
+	color: red;
+}
+
 .carousel-container {
   padding-left: 0px;
   padding-right:0px;

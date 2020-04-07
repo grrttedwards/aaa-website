@@ -65,7 +65,12 @@ strong {
 	margin: auto;
 }
 
-.frontinfo ul li {
+.frontsubsection {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.frontinfo ul li{
 	text-align: center;
 	list-style-type: none;
 }
@@ -78,7 +83,8 @@ strong {
 }
 
 .frontinfo {
-	padding-top: 40px;
+	padding-top: 30px;
+	white-space: nowrap;
 }
 
 #daycol li {

@@ -8,7 +8,7 @@ body{
 	#3390b7*/
 	
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 16px;
+	font-size: 1.8em;
 	
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
@@ -109,7 +109,7 @@ strong {
 	min-height: 650px;
 }
 .about-section{
-	min-height: 768px;
+	min-height: 875px;
 }
 .findus-section{
 	min-height: 650px;
@@ -140,7 +140,8 @@ strong {
 }
 
 #aaastorefront{
-	box-shadow: 0px 5px 20px #333333;
+	display: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .brandcontainer{
@@ -148,9 +149,10 @@ strong {
 	padding-bottom: 13px;
 }
 
-/* .brandcontainer li:nth-child(2n){
-	color: #4D7BC1
-} */
+.brandcontainer li:nth-child(2n){
+	/* color: #4D7BC1 */
+	color: inherit;
+}
 
 .finduscontainer li{
 	display: block;
@@ -197,6 +199,7 @@ strong {
 
 .formscontainer img{
 	max-height: 200px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);	
 }
 
 .google-maps {
@@ -205,7 +208,7 @@ strong {
 	padding-bottom: 50%;
 	height: 0;
 	overflow: hidden;
-	box-shadow: 0px 5px 20px #333333;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .google-maps iframe {
 	position: absolute;
@@ -224,17 +227,20 @@ strong {
 	right: 10px;
 }
 .titlecontainer{
-	padding-top: 100px;
+	padding-top: 100px;	
 	padding-bottom: 100px;
 }
-	
+
 @media(min-width:1200px) {
 	.titlecontainer h1{
 		top: 25px;
 	}
 }
-	
-@media(min-width:767px) {
+
+@media screen and (min-width:990px) {
+	body {
+		font-size: 2.1em;
+	}
     .navbar {
         padding: 15px 0;
         -webkit-transition: background .35s ease-in-out,padding .35s ease-in-out;
@@ -253,7 +259,7 @@ strong {
 		margin-top: 25px;
 	}
 	.frontinfo {
-	padding-top: 75px;
+		padding-top: 75px;
 	}
 	.carousel-indicators{
 		display: initial;
@@ -262,6 +268,12 @@ strong {
 	}
 	#aaalogo{
 		margin-top: 0px;
+	}
+	#aaastorefront {
+		display: initial;
+	}
+	.about-section{
+		min-height: 768px;
 	}
 	.findus-section{
 		min-height: 768px;
@@ -278,10 +290,10 @@ strong {
 		padding-bottom: 150px;
 	}
 	.aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 60px;
-	color: #1252B5;
-	text-shadow: 0px 3px 10px #ddd
-}
+		padding-top: 50px;
+		padding-bottom: 50px;
+		font-size: 60px;
+		color: #1252B5;
+		text-shadow: 0px 3px 10px #ddd
+	}
 }

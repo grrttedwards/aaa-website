@@ -1,25 +1,23 @@
-body{
+body {
 	background-color: #eeeeee;
-    width: 100%;
-    height: 100%;
-	
+	width: 100%;
+	height: 100%;
 	/* colors
 	#337ab7 
 	#3390b7*/
-	
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 1.8em;
-	
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
-body section{
+
+body section {
 	border-left: transparent;
 	border-right: 0.8vw solid #1252B5;
 	height: 100%;
@@ -27,18 +25,19 @@ body section{
 	background-color: #eee;
 	min-height: 1500px;
 }
-body section:nth-child(2n){
+
+body section:nth-child(2n) {
 	border-left: 0.8vw solid #1252B5;
 	border-right: transparent;
 	background: #fefefe;
 }
 
-.navbar a{
+.navbar a {
 	font-size: 26px;
 	text-transform: uppercase;
 }
 
-a{
+a {
 	color: #1252B5;
 }
 
@@ -48,30 +47,30 @@ strong {
 }
 
 .carousel-container {
-  padding-left: 0px;
-  padding-right:0px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.carousel-indicators{
+.carousel-indicators {
 	display: none;
 	opacity: 0;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner>.item>img {
 	min-height: 50px;
 	box-shadow: 0px 0px 25px #333333;
 	margin: auto;
 }
 
-.frontinfo ul li{
+.frontinfo ul li {
 	text-align: center;
 	list-style-type: none;
 }
 
-.frontinfo ul{
+.frontinfo ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -82,79 +81,86 @@ strong {
 	padding-top: 40px;
 }
 
-#daycol li{
+#daycol li {
 	text-align: right;
 }
-#hourcol li{
+
+#hourcol li {
 	text-align: left;
 }
-#cardicons li{
+
+#cardicons li {
 	display: inline;
 	list-style-type: none;
 	padding-right: 5px;
 	padding-left: 5px;
 }
-#cardicons img{
+
+#cardicons img {
 	height: 30px;
 }
 
-.top-section, .about-section, .findus-section, .forms-section{
-    height: 100%;
-    padding-top: 0px;
-    text-align: center;
+.top-section, .about-section, .findus-section, .forms-section {
+	height: 100%;
+	padding-top: 0px;
+	text-align: center;
 	min-height: 768px;
-	overflow:hidden;
+	overflow: hidden;
 }
-.top-section{
+
+.top-section {
 	min-height: 650px;
 }
-.about-section{
+
+.about-section {
 	min-height: 875px;
 }
-.findus-section{
+
+.findus-section {
 	min-height: 650px;
 }
-.forms-section{
+
+.forms-section {
 	min-height: 768px;
 }
 
-.aboutcontainer p{
+.aboutcontainer p {
 	text-align: left;
 }
 
-.aboutcontainer ul li{
+.aboutcontainer ul li {
 	color: #1252B5;
 	text-align: center;
 	list-style-type: none;
 }
 
-.aboutcontainer ul{
+.aboutcontainer ul {
 	margin: 0;
 	padding: 0;
 }
 
-#aaalogo{
+#aaalogo {
 	height: 30vh;
 	padding-top: 0px;
 	margin-bottom: 1000px;
 }
 
-#aaastorefront{
+#aaastorefront {
 	display: none;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.brandcontainer{
+.brandcontainer {
 	padding-top: 13px;
 	padding-bottom: 13px;
 }
 
-.brandcontainer li:nth-child(2n){
+.brandcontainer li:nth-child(2n) {
 	/* color: #4D7BC1 */
 	color: inherit;
 }
 
-.finduscontainer li{
+.finduscontainer li {
 	display: block;
 }
 
@@ -163,19 +169,21 @@ strong {
 	position: relative;
 }
 
-.findusinfo ul li{
+.findusinfo ul li {
 	text-align: center;
 	list-style-type: none;
 }
 
-.findusinfo ul{ /* map page */
+.findusinfo ul {
+	/* map page */
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
 }
 
-.topcontainer h1{ /* AAA header  */
+.topcontainer h1 {
+	/* AAA header  */
 	padding-top: 0px;
 	padding-bottom: 0px;
 	top: 0px;
@@ -189,7 +197,7 @@ strong {
 	display: inline;
 }
 
-.aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
+.aboutcontainer h1, .finduscontainer h1, .formscontainer h1 {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 36px;
@@ -197,9 +205,9 @@ strong {
 	text-shadow: 0px 3px 10px #ddd
 }
 
-.formscontainer img{
+.formscontainer img {
 	max-height: 200px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);	
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .google-maps {
@@ -208,8 +216,9 @@ strong {
 	padding-bottom: 50%;
 	height: 0;
 	overflow: hidden;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .google-maps iframe {
 	position: absolute;
 	top: 0;
@@ -217,22 +226,22 @@ strong {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	
 }
 
-.titlecontainer img{
+.titlecontainer img {
 	display: inline;
 	height: 50px;
 	position: relative;
 	right: 10px;
 }
-.titlecontainer{
-	padding-top: 100px;	
+
+.titlecontainer {
+	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
 @media(min-width:1200px) {
-	.titlecontainer h1{
+	.titlecontainer h1 {
 		top: 25px;
 	}
 }
@@ -241,55 +250,53 @@ strong {
 	body {
 		font-size: 2.1em;
 	}
-    .navbar {
-        padding: 15px 0;
-        -webkit-transition: background .35s ease-in-out,padding .35s ease-in-out;
-        -moz-transition: background .35s ease-in-out,padding .35s ease-in-out;
-        transition: background .35s ease-in-out,padding .35s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-	
-	.topcontainer h1{
+	.navbar {
+		padding: 15px 0;
+		-webkit-transition: background .35s ease-in-out, padding .35s ease-in-out;
+		-moz-transition: background .35s ease-in-out, padding .35s ease-in-out;
+		transition: background .35s ease-in-out, padding .35s ease-in-out;
+	}
+	.top-nav-collapse {
+		padding: 0;
+	}
+	.topcontainer h1 {
 		font-size: 68px;
 	}
-	.carousel-container{
+	.carousel-container {
 		margin-top: 25px;
 	}
 	.frontinfo {
 		padding-top: 75px;
 	}
-	.carousel-indicators{
+	.carousel-indicators {
 		display: initial;
 		top: initial;
 		opacity: 0.3;
 	}
-	#aaalogo{
+	#aaalogo {
 		margin-top: 0px;
 	}
 	#aaastorefront {
 		display: initial;
 	}
-	.about-section{
+	.about-section {
 		min-height: 768px;
 	}
-	.findus-section{
+	.findus-section {
 		min-height: 768px;
 	}
-	.top-section{
+	.top-section {
 		min-height: 768px;
 	}
-	.titlecontainer img{
+	.titlecontainer img {
 		display: inline;
 		height: 125px;
 	}
-	.titlecontainer{
+	.titlecontainer {
 		padding-top: 125px;
 		padding-bottom: 150px;
 	}
-	.aboutcontainer h1, .finduscontainer h1, .formscontainer h1{
+	.aboutcontainer h1, .finduscontainer h1, .formscontainer h1 {
 		padding-top: 50px;
 		padding-bottom: 50px;
 		font-size: 60px;

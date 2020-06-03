@@ -163,7 +163,7 @@ strong {
 
 .brandcontainer li:nth-child(2n) {
 	/* color: #4D7BC1 */
-	color: inherit;
+	color: #555555;
 }
 
 .finduscontainer li {

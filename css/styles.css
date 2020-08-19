@@ -46,6 +46,22 @@ strong {
 	color: red;
 }
 
+.text-banner {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	text-align: left;
+}
+
+/* added for the text-banner */
+.carousel-container {
+	text-align: center;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+}
+
 .carousel-container {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -115,11 +131,11 @@ strong {
 }
 
 .top-section {
-	min-height: 650px;
+	min-height: 950px;
 }
 
 .about-section {
-	min-height: 875px;
+	min-height: 950px;
 }
 
 .findus-section {
@@ -286,13 +302,13 @@ strong {
 		display: initial;
 	}
 	.about-section {
-		min-height: 768px;
+		min-height: 875px;
 	}
 	.findus-section {
 		min-height: 768px;
 	}
 	.top-section {
-		min-height: 768px;
+		min-height: 875px;
 	}
 	.titlecontainer img {
 		display: inline;
